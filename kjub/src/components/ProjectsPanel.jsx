@@ -1,4 +1,4 @@
-import ProjectCard from './ProjectCard';
+import ProjectCard from './ProjectCard.jsx';
 const base = import.meta.env.BASE_URL;
 
 const firefoxIcon = { src: `${base}assets/firefox_icon.png`, alt: 'Firefox' };

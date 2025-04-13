@@ -1,5 +1,5 @@
-import InfoPanel from './components/InfoPanel';
-import ProjectsPanel from './components/ProjectsPanel';
+import InfoPanel from './components/InfoPanel.jsx';
+import ProjectsPanel from './components/ProjectsPanel.jsx';
 
 export default function App() {
 	return (
