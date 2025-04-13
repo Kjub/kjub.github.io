@@ -3,12 +3,15 @@ const base = import.meta.env.BASE_URL;
 const githubIcon = `${base}assets/github_icon.png`;
 const linkedinIcon = `${base}assets/linkedin_icon.png`;
 
+const logo = `${base}assets/logo/logo.png`;
+
 export default function InfoPanel() {
 	return (
-		<div className="h-full flex flex-col justify-between">
+		<div className="h-full flex flex-col justify-between items-center text-center">
 			{/* Top info */}
 			<div>
 				<h2 className="text-2xl font-bold mb-2">Kjub</h2>
+				<img src={logo} alt="logo" className="rounded-lg object-contain hover:scale-150 transition-transform" />
 				<span>Software developer</span>
 				<ul className="space-y-2 text-sm text-gray-300">
 					<li>kjubscube@gmail.com</li>

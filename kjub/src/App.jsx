@@ -11,7 +11,7 @@ export default function App() {
 				</div>
 
 				{/* Info Panel */}
-				<div className="w-1/5 h-[300px] bg-[var(--info-bg)] p-6 rounded-2xl shadow-xl sticky top-6">
+				<div className="w-1/5 h-[400px] bg-[var(--info-bg)] p-6 rounded-2xl shadow-xl sticky top-6">
 					<InfoPanel />
 				</div>
 			</div>

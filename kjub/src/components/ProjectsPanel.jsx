@@ -8,7 +8,7 @@ const unityIcon = { src: `${base}assets/unity_icon.png`, alt: 'Unity' };
 export default function ProjectsPanel() {
 	return (
 		<div>
-			<h1 className="text-3xl font-bold mb-6 text-[var(--text-title)]">My Projects</h1>
+			<h1 className="text-3xl font-bold mb-6 text-[var(--text-title)]">Projects</h1>
 
 			<ProjectCard
 				title="UI Element Highlighter"
