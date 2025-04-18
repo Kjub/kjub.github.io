@@ -13,7 +13,7 @@ export default function ProjectsPanel() {
 			<ProjectCard
 				title="UI Element Highlighter"
 				description="This Unity tool allows users to easily navigate, identify, and interact with RectTransform components in the Scene View "
-				links={[{ href: 'https://assetstore.unity.com/preview/316773/1049026', ...unityIcon }]}
+				links={[{ href: 'https://assetstore.unity.com/packages/slug/316773 ', ...unityIcon }]}
 				media={
 					<iframe
 						src="https://www.youtube.com/embed/6VhmGErvmuE"
